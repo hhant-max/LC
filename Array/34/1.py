@@ -1,5 +1,4 @@
-# un consider the border of list when do the operation of --
-# no outer,no though of why not running (i solutino)
+
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         
