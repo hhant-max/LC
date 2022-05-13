@@ -11,3 +11,4 @@ class Solution:
                 leng = len(nums[l:r]) if len(nums[l:r]) < leng else -1
                 l += 1
         return leng
+
