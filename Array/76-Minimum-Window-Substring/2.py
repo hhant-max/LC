@@ -2,7 +2,7 @@ def  minwindow(s, t) -> str:
     countT, window = {},{}
 
     # transfer t into a dict---- key:string value : count number: dictionary get function.
-    # 这边有问题!!!!!
+    # 没用数个数的函数二十手动便利每一个， 并且如果存在的话就加到字典并且再原来的基础上加。 如果不存在就返回0
     for s in t:
         countT[s] = 1 + countT.get(s,0)
     
