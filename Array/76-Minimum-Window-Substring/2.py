@@ -1,3 +1,6 @@
+# 一定要注意的是 如果 字典中则会个数不存在的话 会报错！ 关于字典的一个小bug
+
+
 def minWindow(s: str, t: str) -> str:
     countT, window = {},{}
 
