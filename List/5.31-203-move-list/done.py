@@ -17,3 +17,5 @@ class Solution:
                 curr = curr.next
                 prev = prev.next
         return dummy.next
+    
+        #可以把这个 curr 移到外面去
