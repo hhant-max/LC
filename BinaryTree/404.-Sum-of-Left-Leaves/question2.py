@@ -30,5 +30,5 @@ class Solution:
         return res
 
         
-res = Solution().sumOfLeftLeaves(root = [3,9,20,None,None,15,7])
-print(res)
+#res = Solution().sumOfLeftLeaves(root = [3,9,20,None,None,15,7])
+#print(res)
