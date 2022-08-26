@@ -4,6 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+# 问题出在如果 左边返回了该有的值 你还进入到下一层循环到右边去 最后就会返回None
 class Solution:
     def searchBST(self, root: Optional[TreeNode], val: int) -> Optional[TreeNode]:
         if not root: return None
